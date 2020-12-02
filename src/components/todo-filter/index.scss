@@ -1,0 +1,41 @@
+.todo-filter-bg{
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border:2px solid #ddd;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+div.actions *{
+    // width:60px;
+    height: 30px;
+    background-color: clear;
+    margin-right: 20px;
+}
+
+.btn-selected{
+    // border: 2px solid purple;
+}
+
+.btn-normal{
+    border: 0;
+}
+
+.todo-count{
+    font-size: 14px;
+    color: gray;
+}
+
+.clear-btn{
+
+}

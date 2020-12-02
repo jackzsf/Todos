@@ -1,0 +1,56 @@
+
+.todo-item-bg{
+    width:500px;
+    height:50px;
+    border:2px solid #ddd;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.todo-item-bg:hover{
+    opacity: 1;
+}
+
+.todo-item-bg button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    // border: 2px solid #eee;
+    border: none;
+    margin-right: 20px;
+    // background-color: pink;
+}
+
+.delete-item{
+    width:30px;
+    height: 30px;
+    // background-color: red;
+    color: gray;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+
+.item-btn-complated{
+    background-color: green;
+    // width: 100px;
+}
+
+.item-btn-normal{
+    background-color: gray;
+    // width: 50px;
+}
+
+.content-complated{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.content-normal{
+    color: black;
+    text-decoration: none;
+}
